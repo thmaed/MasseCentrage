@@ -1,4 +1,5 @@
 {
   "name": "Aeroclub Annecy",
-  "description": "Fiches d'avions de l'Aeroclub Annecy (source : page Masse & Centrage ACA)"
+  "description": "Fiches d'avions de l'Aeroclub Annecy (source : page Masse & Centrage ACA)",
+  "order": ["F-GUVU", "F-HDAF", "F-GUVL", "F-GNCY", "F-HSHH", "F-HSHI", "F-HUAP", "F-BOMI", "74-AJL", "74-xxx", "74-AMB"]
 }

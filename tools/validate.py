@@ -87,6 +87,9 @@ for folder in sorted(os.listdir(ROOT)):
     try:
         meta = json.load(open(meta_path))
         if not str(meta.get("name", "")).strip(): err(f"{folder}/club.json", "« name » requis")
+        order = meta.get("order")
+        if order is not None and not (isinstance(order, list) and all(isinstance(x, str) for x in order)):
+            err(f"{folder}/club.json", "« order » : liste d'immatriculations attendue")
     except Exception as ex:
         err(f"{folder}/club.json", f"JSON illisible ({ex})")
     for name in sorted(os.listdir(d)):
@@ -108,6 +111,18 @@ for folder in sorted(os.listdir(ROOT)):
                 full = (folder, key)
                 if full in table: err(path, f"{key[0]} en double avec {table[full]}")
                 table[full] = path
+
+for folder in sorted(os.listdir(ROOT)):
+    meta_path = os.path.join(ROOT, folder, "club.json")
+    if os.path.isfile(meta_path) and not folder.startswith((".", "_")):
+        try:
+            order = json.load(open(meta_path)).get("order") or []
+        except Exception:
+            continue
+        known = {key[1] for (f, key) in seen_regs if f == folder}        # immatriculations (minuscules) du dossier
+        for reg in order:
+            if reg.lower() not in known:
+                errors.append(f"{folder}/club.json : « order » cite {reg}, qui n'a pas de fiche")
 
 if clubs == 0:
     errors.append("aucun dossier de club")

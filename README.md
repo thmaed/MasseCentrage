@@ -4,7 +4,7 @@ Fiches d'avions lues par l'app **Masse & Centrage** (iPhone / iPad). Un dossier 
 
 ```
 Aca/
-  club.json          nom de l'aéroclub (affiché dans l'app)
+  club.json          nom de l'aéroclub (affiché dans l'app) et « order » : ordre d'affichage des avions (immatriculations)
   F-GUVU.json        une fiche par avion, nommée d'après l'immatriculation
   …
 tools/validate.py    contrôle des fiches (lancé automatiquement à chaque modification)
