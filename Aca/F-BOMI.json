@@ -1,0 +1,268 @@
+{
+  "active": true,
+  "armUnit": "m",
+  "baggage": {
+    "arm": 1.447,
+    "label": "Bagages",
+    "max": 10
+  },
+  "baggageExt": null,
+  "crew": {
+    "arm": 0.28,
+    "label": "Équipage (Avant)"
+  },
+  "empty": {
+    "arm": 0.392,
+    "mass": 443,
+    "maxMass": 681
+  },
+  "envelope": [
+    [
+      0.29,
+      300
+    ],
+    [
+      0.29,
+      341
+    ],
+    [
+      0.355,
+      681
+    ],
+    [
+      0.533,
+      681
+    ],
+    [
+      0.533,
+      300
+    ]
+  ],
+  "family": "pa19",
+  "fuel": {
+    "burnPerHour": 20,
+    "density": 0.72,
+    "left": {
+      "arm": 0.61,
+      "capacity": 67
+    },
+    "right": {
+      "arm": 0.61,
+      "capacity": 67
+    },
+    "type": "100LL",
+    "unit": "litres",
+    "unusable": 2
+  },
+  "id": "F-BOMI",
+  "livery": {
+    "accent": "#1E9BD7",
+    "body": "#8FD3E8"
+  },
+  "model": "PA-19",
+  "passenger": {
+    "arm": 0.94,
+    "label": "Passagers (Arrière)"
+  },
+  "perf": {
+    "landing50": [
+      [
+        [
+          277,
+          288,
+          301
+        ],
+        [
+          284,
+          296,
+          309
+        ],
+        [
+          290,
+          304,
+          319
+        ]
+      ],
+      [
+        [
+          332,
+          346,
+          361
+        ],
+        [
+          341,
+          355,
+          371
+        ],
+        [
+          348,
+          364,
+          383
+        ]
+      ]
+    ],
+    "landingRoll": [
+      [
+        [
+          152,
+          158,
+          165
+        ],
+        [
+          156,
+          163,
+          170
+        ],
+        [
+          159,
+          167,
+          175
+        ]
+      ],
+      [
+        [
+          182,
+          190,
+          198
+        ],
+        [
+          187,
+          195,
+          204
+        ],
+        [
+          191,
+          200,
+          210
+        ]
+      ]
+    ],
+    "maxMass": 681,
+    "minMass": 619,
+    "takeoff50": [
+      [
+        [
+          262,
+          369,
+          538
+        ],
+        [
+          292,
+          418,
+          620
+        ],
+        [
+          322,
+          468,
+          715
+        ]
+      ],
+      [
+        [
+          314,
+          443,
+          645
+        ],
+        [
+          350,
+          501,
+          745
+        ],
+        [
+          386,
+          562,
+          858
+        ]
+      ]
+    ],
+    "takeoffRoll": [
+      [
+        [
+          144,
+          203,
+          295
+        ],
+        [
+          160,
+          230,
+          341
+        ],
+        [
+          177,
+          257,
+          393
+        ]
+      ],
+      [
+        [
+          172,
+          244,
+          355
+        ],
+        [
+          192,
+          276,
+          409
+        ],
+        [
+          212,
+          309,
+          472
+        ]
+      ]
+    ]
+  },
+  "registration": "F-BOMI",
+  "speedLaw": null,
+  "speedUnit": "mph",
+  "speeds": {
+    "AP": {
+      "flaps": "-",
+      "label": "Approche finale",
+      "power": "Au besoin",
+      "value": 65
+    },
+    "C": {
+      "flaps": "-",
+      "label": "Croisière",
+      "power": "2300 rpm",
+      "value": 90
+    },
+    "EB": {
+      "flaps": "-",
+      "label": "Étape de base",
+      "power": "1600 rpm",
+      "value": 70
+    },
+    "MN": {
+      "flaps": "-",
+      "label": "Montée en route",
+      "power": "MAX",
+      "value": 70
+    },
+    "PL": {
+      "flaps": "-",
+      "label": "Planée",
+      "power": "",
+      "value": 70
+    },
+    "R": {
+      "flaps": "-",
+      "label": "Rotation (Vr)",
+      "power": "MAX",
+      "value": 40
+    },
+    "VE": {
+      "flaps": "-",
+      "label": "Vent arrière",
+      "power": "1800 rpm",
+      "value": 70
+    },
+    "Y": {
+      "flaps": "-",
+      "label": "Montée initiale (Vy)",
+      "power": "MAX",
+      "value": 70
+    }
+  }
+}

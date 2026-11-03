@@ -1,0 +1,297 @@
+{
+  "active": true,
+  "armUnit": "m",
+  "baggage": {
+    "arm": 3.65,
+    "label": "Bagages",
+    "max": 30
+  },
+  "baggageExt": null,
+  "crew": {
+    "arm": 2.3,
+    "label": "Équipage (Places avant)"
+  },
+  "empty": {
+    "arm": 2.4241,
+    "mass": 816,
+    "maxMass": 1150
+  },
+  "envelope": [
+    [
+      2.4,
+      800
+    ],
+    [
+      2.4,
+      980
+    ],
+    [
+      2.46,
+      1150
+    ],
+    [
+      2.59,
+      1150
+    ],
+    [
+      2.59,
+      800
+    ]
+  ],
+  "family": "da40",
+  "fuel": {
+    "burnPerHour": 5.8,
+    "density": 3,
+    "left": {
+      "arm": 2.63,
+      "capacity": 19.5
+    },
+    "right": {
+      "arm": 2.63,
+      "capacity": 19.5
+    },
+    "type": "Jet A1",
+    "unit": "gal",
+    "unusable": 2
+  },
+  "id": "F-GUVL",
+  "livery": {
+    "accent": "#3B7DC4",
+    "body": "#F4F6FA"
+  },
+  "model": "DA40",
+  "passenger": {
+    "arm": 3.25,
+    "label": "Passagers (Places arrière)"
+  },
+  "perf": {
+    "landing50": [
+      [
+        [
+          590,
+          660,
+          750
+        ],
+        [
+          630,
+          720,
+          800
+        ],
+        [
+          670,
+          760,
+          860
+        ]
+      ],
+      [
+        [
+          680,
+          780,
+          870
+        ],
+        [
+          740,
+          840,
+          950
+        ],
+        [
+          790,
+          900,
+          1020
+        ]
+      ]
+    ],
+    "landingRoll": [
+      [
+        [
+          230,
+          250,
+          290
+        ],
+        [
+          240,
+          275,
+          310
+        ],
+        [
+          255,
+          295,
+          340
+        ]
+      ],
+      [
+        [
+          270,
+          300,
+          340
+        ],
+        [
+          280,
+          325,
+          365
+        ],
+        [
+          305,
+          345,
+          395
+        ]
+      ]
+    ],
+    "maxMass": 1150,
+    "minMass": 980,
+    "takeoff50": [
+      [
+        [
+          308,
+          387,
+          507
+        ],
+        [
+          336,
+          422,
+          553
+        ],
+        [
+          392,
+          491,
+          644
+        ]
+      ],
+      [
+        [
+          468,
+          586,
+          769
+        ],
+        [
+          510,
+          639,
+          838
+        ],
+        [
+          594,
+          744,
+          976
+        ]
+      ]
+    ],
+    "takeoffRoll": [
+      [
+        [
+          191,
+          240,
+          316
+        ],
+        [
+          208,
+          261,
+          343
+        ],
+        [
+          242,
+          303,
+          397
+        ]
+      ],
+      [
+        [
+          291,
+          364,
+          477
+        ],
+        [
+          316,
+          396,
+          519
+        ],
+        [
+          366,
+          459,
+          602
+        ]
+      ]
+    ]
+  },
+  "registration": "F-GUVL",
+  "speedLaw": {
+    "laws": {
+      "AP": {
+        "above": 0.05333,
+        "base": 63,
+        "below": 0.03333
+      },
+      "MN": {
+        "above": 0.03333,
+        "base": 78,
+        "below": 0.05333
+      },
+      "PL": {
+        "above": 0.03333,
+        "base": 68,
+        "below": 0.05333
+      },
+      "R": {
+        "above": 0.02667,
+        "base": 55,
+        "below": 0.04
+      },
+      "Y": {
+        "above": 0.04,
+        "base": 60,
+        "below": 0.04
+      }
+    },
+    "refMass": 1000
+  },
+  "speedUnit": "kts",
+  "speeds": {
+    "AP": {
+      "flaps": "LDG",
+      "label": "Approche finale",
+      "power": "25%",
+      "value": 64
+    },
+    "C": {
+      "flaps": "Up",
+      "label": "Croisière",
+      "power": "70%",
+      "value": 125
+    },
+    "EB": {
+      "flaps": "T/O",
+      "label": "Étape de base",
+      "power": "20%",
+      "value": 75
+    },
+    "MN": {
+      "flaps": "Up",
+      "label": "Montée en route",
+      "power": "85%",
+      "value": 79
+    },
+    "PL": {
+      "flaps": "Up",
+      "label": "Planée",
+      "power": "",
+      "value": 69
+    },
+    "R": {
+      "flaps": "T/O",
+      "label": "Rotation (Vr)",
+      "power": "100%",
+      "value": 56
+    },
+    "VE": {
+      "flaps": "T/O",
+      "label": "Vent arrière",
+      "power": "40%",
+      "value": 75
+    },
+    "Y": {
+      "flaps": "T/O",
+      "label": "Montée initiale (Vy)",
+      "power": "100%",
+      "value": 61
+    }
+  }
+}

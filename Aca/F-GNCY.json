@@ -1,0 +1,291 @@
+{
+  "active": true,
+  "armUnit": "m",
+  "baggage": {
+    "arm": 3.89,
+    "label": "Bagages principal",
+    "max": 45
+  },
+  "baggageExt": {
+    "arm": 4.54,
+    "label": "Bagages extension",
+    "max": 18
+  },
+  "crew": {
+    "arm": 2.3,
+    "label": "Équipage (Places avant)"
+  },
+  "empty": {
+    "arm": 2.448,
+    "mass": 929.3,
+    "maxMass": 1310
+  },
+  "envelope": [
+    [
+      2.4,
+      940
+    ],
+    [
+      2.4,
+      1080
+    ],
+    [
+      2.47,
+      1310
+    ],
+    [
+      2.53,
+      1310
+    ],
+    [
+      2.53,
+      940
+    ]
+  ],
+  "family": "da40ng",
+  "fuel": {
+    "burnPerHour": 6.25,
+    "density": 3,
+    "left": {
+      "arm": 2.63,
+      "capacity": 19.5
+    },
+    "right": {
+      "arm": 2.63,
+      "capacity": 19.5
+    },
+    "type": "Jet A1",
+    "unit": "gal",
+    "unusable": 2
+  },
+  "id": "F-GNCY",
+  "livery": {
+    "accent": "#2B3FA0",
+    "body": "#F4F6FA"
+  },
+  "model": "DA40-NG",
+  "passenger": {
+    "arm": 3.25,
+    "label": "Passagers (Places arrière)"
+  },
+  "perf": {
+    "landing50": [
+      [
+        [
+          580,
+          600,
+          640
+        ],
+        [
+          612,
+          630,
+          736
+        ],
+        [
+          660,
+          700,
+          840
+        ]
+      ],
+      [
+        [
+          605,
+          660,
+          720
+        ],
+        [
+          650,
+          692,
+          806
+        ],
+        [
+          700,
+          810,
+          920
+        ]
+      ]
+    ],
+    "landingRoll": [
+      [
+        [
+          250,
+          285,
+          360
+        ],
+        [
+          270,
+          302,
+          394
+        ],
+        [
+          293,
+          340,
+          450
+        ]
+      ],
+      [
+        [
+          300,
+          340,
+          400
+        ],
+        [
+          318,
+          356,
+          452
+        ],
+        [
+          345,
+          420,
+          520
+        ]
+      ]
+    ],
+    "maxMass": 1310,
+    "minMass": 1100,
+    "takeoff50": [
+      [
+        [
+          420,
+          500,
+          540
+        ],
+        [
+          457,
+          549,
+          684
+        ],
+        [
+          510,
+          650,
+          840
+        ]
+      ],
+      [
+        [
+          535,
+          660,
+          740
+        ],
+        [
+          590,
+          708,
+          881
+        ],
+        [
+          660,
+          840,
+          1060
+        ]
+      ]
+    ],
+    "takeoffRoll": [
+      [
+        [
+          275,
+          335,
+          390
+        ],
+        [
+          303,
+          377,
+          485
+        ],
+        [
+          345,
+          455,
+          606
+        ]
+      ],
+      [
+        [
+          350,
+          440,
+          500
+        ],
+        [
+          397,
+          490,
+          628
+        ],
+        [
+          445,
+          590,
+          770
+        ]
+      ]
+    ]
+  },
+  "registration": "F-GNCY",
+  "speedLaw": {
+    "laws": {
+      "AP": {
+        "above": 0.03333,
+        "base": 72,
+        "below": 0.03333
+      },
+      "R": {
+        "above": 0.035,
+        "base": 61,
+        "below": 0.035
+      },
+      "Y": {
+        "above": 0.025,
+        "base": 67,
+        "below": 0.025
+      }
+    },
+    "refMass": 1100
+  },
+  "speedUnit": "kts",
+  "speeds": {
+    "AP": {
+      "flaps": "LDG",
+      "label": "Approche finale",
+      "power": "25%",
+      "value": 73
+    },
+    "C": {
+      "flaps": "Up",
+      "label": "Croisière",
+      "power": "75%",
+      "value": 125
+    },
+    "EB": {
+      "flaps": "T/O",
+      "label": "Étape de base",
+      "power": "20%",
+      "value": 75
+    },
+    "MN": {
+      "flaps": "Up",
+      "label": "Montée en route",
+      "power": "90%",
+      "value": 88
+    },
+    "PL": {
+      "flaps": "Up",
+      "label": "Planée",
+      "power": "",
+      "value": 88
+    },
+    "R": {
+      "flaps": "T/O",
+      "label": "Rotation (Vr)",
+      "power": "100%",
+      "value": 62
+    },
+    "VE": {
+      "flaps": "T/O",
+      "label": "Vent arrière",
+      "power": "40%",
+      "value": 75
+    },
+    "Y": {
+      "flaps": "T/O",
+      "label": "Montée initiale (Vy)",
+      "power": "100%",
+      "value": 68
+    }
+  }
+}

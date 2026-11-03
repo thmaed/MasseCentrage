@@ -1,0 +1,264 @@
+{
+  "active": false,
+  "armUnit": "mm",
+  "baggage": {
+    "arm": 1806,
+    "label": "Bagages",
+    "max": 15
+  },
+  "baggageExt": null,
+  "crew": {
+    "arm": 1156,
+    "label": "Pilote (Place gauche)"
+  },
+  "empty": {
+    "arm": 791.58,
+    "mass": 335.2,
+    "maxMass": 525
+  },
+  "envelope": [
+    [
+      750,
+      300
+    ],
+    [
+      750,
+      525
+    ],
+    [
+      887,
+      525
+    ],
+    [
+      887,
+      300
+    ]
+  ],
+  "family": "xl8",
+  "fuel": {
+    "burnPerHour": 19,
+    "density": 0.75,
+    "left": {
+      "arm": 606,
+      "capacity": 59.9
+    },
+    "right": {
+      "arm": 606,
+      "capacity": 59.9
+    },
+    "type": "SP98",
+    "unit": "litres",
+    "unusable": 0.2
+  },
+  "id": "74-AMB",
+  "livery": {
+    "accent": "#E3202B",
+    "body": "#F4F6FA"
+  },
+  "model": "XL8",
+  "passenger": {
+    "arm": 1156,
+    "label": "Passager (Place droite)"
+  },
+  "perf": {
+    "landing50": [
+      [
+        [
+          216,
+          258,
+          291
+        ],
+        [
+          250,
+          283,
+          316
+        ],
+        [
+          266,
+          300,
+          341
+        ]
+      ],
+      [
+        [
+          260,
+          310,
+          350
+        ],
+        [
+          300,
+          340,
+          380
+        ],
+        [
+          320,
+          360,
+          410
+        ]
+      ]
+    ],
+    "landingRoll": [
+      [
+        [
+          75,
+          83,
+          100
+        ],
+        [
+          83,
+          91,
+          108
+        ],
+        [
+          91,
+          100,
+          116
+        ]
+      ],
+      [
+        [
+          90,
+          100,
+          120
+        ],
+        [
+          100,
+          110,
+          130
+        ],
+        [
+          110,
+          120,
+          140
+        ]
+      ]
+    ],
+    "maxMass": 525,
+    "minMass": 477,
+    "takeoff50": [
+      [
+        [
+          208,
+          266,
+          333
+        ],
+        [
+          241,
+          308,
+          391
+        ],
+        [
+          275,
+          350,
+          450
+        ]
+      ],
+      [
+        [
+          250,
+          320,
+          400
+        ],
+        [
+          290,
+          370,
+          470
+        ],
+        [
+          330,
+          420,
+          540
+        ]
+      ]
+    ],
+    "takeoffRoll": [
+      [
+        [
+          91,
+          116,
+          150
+        ],
+        [
+          108,
+          133,
+          175
+        ],
+        [
+          125,
+          158,
+          200
+        ]
+      ],
+      [
+        [
+          110,
+          140,
+          180
+        ],
+        [
+          130,
+          160,
+          210
+        ],
+        [
+          150,
+          190,
+          240
+        ]
+      ]
+    ]
+  },
+  "registration": "74-AMB",
+  "speedLaw": null,
+  "speedUnit": "km/h",
+  "speeds": {
+    "AP": {
+      "flaps": "LDG",
+      "label": "Approche finale",
+      "power": "Au besoin",
+      "value": 110
+    },
+    "C": {
+      "flaps": "Up",
+      "label": "Croisière",
+      "power": "4800 rpm",
+      "value": 180
+    },
+    "EB": {
+      "flaps": "T/O",
+      "label": "Étape de base",
+      "power": "Au besoin",
+      "value": 130
+    },
+    "MN": {
+      "flaps": "Up",
+      "label": "Montée en route",
+      "power": "5500 rpm",
+      "value": 135
+    },
+    "PL": {
+      "flaps": "Up",
+      "label": "Planée",
+      "power": "",
+      "value": 120
+    },
+    "R": {
+      "flaps": "T/O",
+      "label": "Rotation (Vr)",
+      "power": "MAX",
+      "value": 70
+    },
+    "VE": {
+      "flaps": "T/O",
+      "label": "Vent arrière",
+      "power": "Au besoin",
+      "value": 130
+    },
+    "Y": {
+      "flaps": "T/O",
+      "label": "Montée initiale (Vy)",
+      "power": "MAX",
+      "value": 135
+    }
+  }
+}

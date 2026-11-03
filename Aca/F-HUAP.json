@@ -1,0 +1,264 @@
+{
+  "active": true,
+  "armUnit": "m",
+  "baggage": {
+    "arm": 1.31,
+    "label": "Bagages",
+    "max": 18
+  },
+  "baggageExt": null,
+  "crew": {
+    "arm": 0.7,
+    "label": "Pilote (Place gauche)"
+  },
+  "empty": {
+    "arm": 0.43509,
+    "mass": 390.2,
+    "maxMass": 600
+  },
+  "envelope": [
+    [
+      0.42,
+      350
+    ],
+    [
+      0.42,
+      600
+    ],
+    [
+      0.525,
+      600
+    ],
+    [
+      0.525,
+      350
+    ]
+  ],
+  "family": "ps28",
+  "fuel": {
+    "burnPerHour": 18,
+    "density": 0.75,
+    "left": {
+      "arm": 0.18,
+      "capacity": 56.5
+    },
+    "right": {
+      "arm": 0.18,
+      "capacity": 56.5
+    },
+    "type": "SP98",
+    "unit": "litres",
+    "unusable": 1
+  },
+  "id": "F-HUAP",
+  "livery": {
+    "accent": "#F5C800",
+    "body": "#FFFFFF"
+  },
+  "model": "PS28",
+  "passenger": {
+    "arm": 0.7,
+    "label": "Passager (Place droite)"
+  },
+  "perf": {
+    "landing50": [
+      [
+        [
+          298,
+          362,
+          441
+        ],
+        [
+          329,
+          400,
+          486
+        ],
+        [
+          362,
+          441,
+          536
+        ]
+      ],
+      [
+        [
+          328,
+          399,
+          485
+        ],
+        [
+          362,
+          440,
+          534
+        ],
+        [
+          399,
+          485,
+          589
+        ]
+      ]
+    ],
+    "landingRoll": [
+      [
+        [
+          120,
+          146,
+          177
+        ],
+        [
+          132,
+          161,
+          196
+        ],
+        [
+          146,
+          177,
+          216
+        ]
+      ],
+      [
+        [
+          132,
+          160,
+          195
+        ],
+        [
+          146,
+          177,
+          215
+        ],
+        [
+          160,
+          195,
+          237
+        ]
+      ]
+    ],
+    "maxMass": 600,
+    "minMass": 545,
+    "takeoff50": [
+      [
+        [
+          266,
+          390,
+          571
+        ],
+        [
+          322,
+          472,
+          691
+        ],
+        [
+          390,
+          571,
+          836
+        ]
+      ],
+      [
+        [
+          319,
+          468,
+          685
+        ],
+        [
+          387,
+          566,
+          829
+        ],
+        [
+          468,
+          685,
+          1003
+        ]
+      ]
+    ],
+    "takeoffRoll": [
+      [
+        [
+          97,
+          142,
+          208
+        ],
+        [
+          117,
+          172,
+          251
+        ],
+        [
+          142,
+          208,
+          304
+        ]
+      ],
+      [
+        [
+          116,
+          170,
+          249
+        ],
+        [
+          141,
+          206,
+          302
+        ],
+        [
+          170,
+          249,
+          365
+        ]
+      ]
+    ]
+  },
+  "registration": "F-HUAP",
+  "speedLaw": null,
+  "speedUnit": "kts",
+  "speeds": {
+    "AP": {
+      "flaps": "LDG",
+      "label": "Approche finale",
+      "power": "3000 rpm",
+      "value": 60
+    },
+    "C": {
+      "flaps": "Up",
+      "label": "Croisière",
+      "power": "4800 rpm",
+      "value": 95
+    },
+    "EB": {
+      "flaps": "T/O",
+      "label": "Étape de base",
+      "power": "2600 rpm",
+      "value": 70
+    },
+    "MN": {
+      "flaps": "Up",
+      "label": "Montée en route",
+      "power": "4800 rpm",
+      "value": 70
+    },
+    "PL": {
+      "flaps": "Up",
+      "label": "Planée",
+      "power": "",
+      "value": 60
+    },
+    "R": {
+      "flaps": "T/O",
+      "label": "Rotation (Vr)",
+      "power": "5000 rpm",
+      "value": 45
+    },
+    "VE": {
+      "flaps": "T/O",
+      "label": "Vent arrière",
+      "power": "4000 rpm",
+      "value": 70
+    },
+    "Y": {
+      "flaps": "T/O",
+      "label": "Montée initiale (Vy)",
+      "power": "5000 rpm",
+      "value": 65
+    }
+  }
+}

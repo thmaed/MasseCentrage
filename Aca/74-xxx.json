@@ -1,0 +1,264 @@
+{
+  "active": true,
+  "armUnit": "m",
+  "baggage": {
+    "arm": 2.3,
+    "label": "Bagages",
+    "max": 30
+  },
+  "baggageExt": null,
+  "crew": {
+    "arm": 1.6,
+    "label": "Pilote (Place gauche)"
+  },
+  "empty": {
+    "arm": 1.586,
+    "mass": 305.4,
+    "maxMass": 525
+  },
+  "envelope": [
+    [
+      1.5,
+      300
+    ],
+    [
+      1.5,
+      525
+    ],
+    [
+      1.751,
+      525
+    ],
+    [
+      1.751,
+      300
+    ]
+  ],
+  "family": "a22",
+  "fuel": {
+    "burnPerHour": 18,
+    "density": 0.75,
+    "left": {
+      "arm": 2,
+      "capacity": 44.5
+    },
+    "right": {
+      "arm": 2,
+      "capacity": 44.5
+    },
+    "type": "SP98",
+    "unit": "litres",
+    "unusable": 1
+  },
+  "id": "74-xxx",
+  "livery": {
+    "accent": "#F4F6FA",
+    "body": "#E3202B"
+  },
+  "model": "A22",
+  "passenger": {
+    "arm": 1.6,
+    "label": "Passager (Place droite)"
+  },
+  "perf": {
+    "landing50": [
+      [
+        [
+          288,
+          350,
+          426
+        ],
+        [
+          318,
+          386,
+          470
+        ],
+        [
+          350,
+          426,
+          518
+        ]
+      ],
+      [
+        [
+          317,
+          385,
+          469
+        ],
+        [
+          350,
+          425,
+          517
+        ],
+        [
+          385,
+          469,
+          570
+        ]
+      ]
+    ],
+    "landingRoll": [
+      [
+        [
+          102,
+          124,
+          150
+        ],
+        [
+          112,
+          136,
+          166
+        ],
+        [
+          124,
+          150,
+          183
+        ]
+      ],
+      [
+        [
+          122,
+          148,
+          180
+        ],
+        [
+          135,
+          164,
+          199
+        ],
+        [
+          148,
+          180,
+          219
+        ]
+      ]
+    ],
+    "maxMass": 472.5,
+    "minMass": 430,
+    "takeoff50": [
+      [
+        [
+          148,
+          216,
+          317
+        ],
+        [
+          179,
+          262,
+          384
+        ],
+        [
+          216,
+          317,
+          464
+        ]
+      ],
+      [
+        [
+          177,
+          260,
+          380
+        ],
+        [
+          215,
+          314,
+          460
+        ],
+        [
+          260,
+          380,
+          557
+        ]
+      ]
+    ],
+    "takeoffRoll": [
+      [
+        [
+          72,
+          105,
+          155
+        ],
+        [
+          87,
+          128,
+          187
+        ],
+        [
+          105,
+          155,
+          226
+        ]
+      ],
+      [
+        [
+          86,
+          127,
+          186
+        ],
+        [
+          105,
+          153,
+          225
+        ],
+        [
+          127,
+          186,
+          272
+        ]
+      ]
+    ]
+  },
+  "registration": "74-xxx",
+  "speedLaw": null,
+  "speedUnit": "km/h",
+  "speeds": {
+    "AP": {
+      "flaps": "2 crans",
+      "label": "Approche finale",
+      "power": "Au besoin",
+      "value": 90
+    },
+    "C": {
+      "flaps": "Up",
+      "label": "Croisière",
+      "power": "65%",
+      "value": 165
+    },
+    "EB": {
+      "flaps": "1 cran",
+      "label": "Étape de base",
+      "power": "Au besoin",
+      "value": 100
+    },
+    "MN": {
+      "flaps": "Up",
+      "label": "Montée en route",
+      "power": "5000 rpm",
+      "value": 120
+    },
+    "PL": {
+      "flaps": "Up",
+      "label": "Planée",
+      "power": "",
+      "value": 100
+    },
+    "R": {
+      "flaps": "1 cran",
+      "label": "Rotation (Vr)",
+      "power": "MAX",
+      "value": 80
+    },
+    "VE": {
+      "flaps": "1 cran",
+      "label": "Vent arrière",
+      "power": "Au besoin",
+      "value": 100
+    },
+    "Y": {
+      "flaps": "1 cran",
+      "label": "Montée initiale (Vy)",
+      "power": "MAX",
+      "value": 100
+    }
+  }
+}
