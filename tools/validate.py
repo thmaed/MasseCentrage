@@ -5,7 +5,7 @@ Usage : python3 tools/validate.py
 Code de sortie 1 si une fiche est invalide. L'app refait elle-même son contrôle complet avant d'appliquer
 quoi que ce soit : ce script sert à repérer une erreur AVANT qu'elle n'arrive sur les téléphones.
 """
-import json, os, sys
+import json, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 FAMILIES = {"da40", "da40ng", "ps28", "pa19", "a22", "xl8", "dr400", "c152", "c172", "pa28", "aquila", "p2008", "da20"}
@@ -87,6 +87,11 @@ for folder in sorted(os.listdir(ROOT)):
     try:
         meta = json.load(open(meta_path))
         if not str(meta.get("name", "")).strip(): err(f"{folder}/club.json", "« name » requis")
+        defaults = meta.get("defaults")
+        if defaults is not None:
+            ok = isinstance(defaults, dict) and set(defaults) <= {"departure", "arrival"} and all(isinstance(v, str) and re.fullmatch(r"[A-Za-z0-9-]{2,8}", v) for v in defaults.values())
+            if not ok:
+                err(f"{folder}/club.json", "« defaults » : { \"departure\": \"LFLP\", \"arrival\": \"LFLP\" } attendu (codes OACI)")
         order = meta.get("order")
         if order is not None and not (isinstance(order, list) and all(isinstance(x, str) for x in order)):
             err(f"{folder}/club.json", "« order » : liste d'immatriculations attendue")

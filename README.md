@@ -4,7 +4,8 @@ Fiches d'avions lues par l'app **Masse & Centrage** (iPhone / iPad). Un dossier 
 
 ```
 Aca/
-  club.json          nom de l'aéroclub (affiché dans l'app) et « order » : ordre d'affichage des avions (immatriculations)
+  club.json          nom de l'aéroclub (affiché dans l'app), « order » : ordre d'affichage des avions (immatriculations),
+                     « defaults » : aérodromes de départ et d'arrivée proposés d'office (codes OACI)
   F-GUVU.json        une fiche par avion, nommée d'après l'immatriculation
   …
 tools/validate.py    contrôle des fiches (lancé automatiquement à chaque modification)
@@ -24,6 +25,11 @@ tools/validate.py    contrôle des fiches (lancé automatiquement à chaque modi
 - Retirer un avion : supprimer son fichier.
 - Un contrôle (GitHub Actions) refuse une fiche invalide : pesée, enveloppe, réservoirs, tableaux de performances.
 - Conseil : passer par une *pull request* relue par une deuxième personne, car ces valeurs servent au calcul de masse et de centrage.
+
+## Aérodromes par défaut
+
+`club.json` peut contenir `"defaults": { "departure": "LFLP", "arrival": "LFLP" }` : à la première ouverture d'un avion, l'app et le site
+préremplissent le départ et l'arrivée avec ces terrains (modifiables ensuite). Un code absent de la base d'aérodromes est ignoré.
 
 ## Ajouter un aéroclub
 
